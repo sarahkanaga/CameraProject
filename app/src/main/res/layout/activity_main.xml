@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:id="@+id/_iv_camera_image_id"
+        android:layout_centerHorizontal="true"
+        android:baselineAlignBottom="true"
+        android:background="#FFFFFF"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_cameraimage_id"
+        android:layout_alignParentBottom="true"
+        android:background="#00F"
+        android:text="capture image"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:minHeight="70dp"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
